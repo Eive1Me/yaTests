@@ -29,9 +29,9 @@ public class YandexTests {
         open("https://disk.yandex.com/");
         MainPage mainPage = new MainPage();
         mainPage.clickInitLogin();
-        mainPage.inputLogin("zzeve@yandex.com");
+        mainPage.inputLogin("***");
         mainPage.clickCont();
-        mainPage.inputPassword("amyUXzDT9wL856d1");
+        mainPage.inputPassword("***");
         mainPage.clickLogin();
         mainPage.checkQuestion();
     }
